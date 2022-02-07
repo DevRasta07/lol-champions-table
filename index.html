@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riot</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto';
+        }
+
+
+
+        h1 {
+            text-align: center;
+            margin-top: 2rem;
+
+        }
+
+        table {
+            margin: 2rem auto;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: .5rem;
+        }
+
+        th {
+            position: relative;
+            cursor: pointer;
+        }
+
+        th:hover {
+            background-color: #f0f0f0;
+        }
+
+        th:active {
+            background-color: #e6e6e6;
+        }
+
+        .number {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Champion Stats</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="h-name">Champion</th>
+                <th class="h-hp">HP</th>
+                <th class="h-mp">MP</th>
+                <th class="h-armor">Armor</th>
+                <th class="h-attackdamage">Attack Damage</th>
+                <th class="h-attackspeed">Attack Speed</th>
+                <th class="h-attackrange">Attack Range</th>
+                <th class="h-movespeed">Move Speed</th>
+            </tr>
+        </thead>
+
+        <tbody></tbody>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+</html>
